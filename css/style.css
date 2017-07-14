@@ -1,1 +1,112 @@
 /* YeyeYeee código aquí */
+body{
+	margin: 0;
+	box-sizing: border-box;
+}
+/***INDEX.HTML***/
+.button-collapse .material-icons{
+	color: #fff;
+}
+.amarillo{
+	color: #f7b617;
+}
+.index{
+    background-color: #565454;
+}
+.img-index{
+	width: 50%;
+    margin: 10% 26%;
+}
+.form-index{
+	background-color: #fff;
+    padding: 1px 10px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+.btn-yellow{
+	width: 100%;
+	background-color: #f7b617;
+}
+.btn-yellow:hover{
+	width: 100%;
+	background-color: #f7b617;
+}
+.enlace{
+	color: #fff;
+    display: block;
+    margin: 10px 0;
+}
+/***MENU.HTML***/
+.menu, .perfil, .preguntas, .saldo{
+	background-color: whitesmoke;
+}
+.side-nav li a i{
+	color: #f7b617;
+}
+.nav-wrapper{
+	background-color: #424040;
+}
+.lista-menu{
+	margin: 50% 0 auto;
+}
+.btn-menu{
+	margin: 10px 0;
+	background-color: #f7b617;
+}
+.btn{
+	display: block;
+}
+
+/***PERFIL.HTLM***/
+.perfil-cont{
+	width: 93%;
+}
+.img-perfil, .pregFre{
+	background-color: #f7b617;
+}
+#lSCorreo{
+	background-color: #fff;
+	width: 70%;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 5%;
+}
+.nuevo{
+	background-color: #fff;
+	width: 100%;
+	padding: 6px;
+	margin: 10px 0;
+	border-radius: 5%;
+}
+
+/*****PREGUNTAS.HTML***/
+.pregFre h4{
+	color: #fff;
+	margin: 20% 0;
+}
+.material-icons{
+	color: #f7b617;
+}
+
+/***SALDO.HTML***/
+.row-saldo, .row-tarifa{
+	padding: 15% 0;
+}
+.col.s6{
+	margin-top: 10%;
+}
+.saldito{
+	background-color: #424040;
+	color: #fff;
+	padding: 5%;
+	margin: 0;
+}
+.saldoP{
+	background-color: #f7b617;
+	font-size: 30px;
+	color: #fff;
+	padding: 15%;
+	margin: 0;
+}
+
+
