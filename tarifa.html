@@ -34,29 +34,37 @@
             <div class="col s12">
                 <div class="input-field">
                     <i class="material-icons prefix">credit_card</i>
-                    <input type="text" id="inputTarjeta2" placeholder="Número tarjeta bip!"> 
+                    <input type="text" id="inputTarjeta3" placeholder="Número tarjeta bip!"> 
+                    <span id="noValido3" class="spanNoValido"></span>
                 </div>    
             </div>
             <div class="input-field col s6">
-                <select id="elegirTarjeta">
-                    <option value="" disabled selected>Choose your option</option>
-                    <option value="valor1"></option>
-                    <option value="valor2"></option>
-                    <option value="valor3"></option>
+                <select id="elegirTarifa">
+                    <option value="" disabled selected>Horario</option>
+                    <option value="$640">Bajo($640)</option>
+                    <option value="$660">Valle($660)</option>
+                    <option value="$740">Alto($740)</option>
                 </select>
                 <label for="">TARIFA</label>
             </div>
             <div class="input-field col s6">
                 <select id="elegirTarjeta">
-                    <option value="" disabled selected>Choose your option</option>
-                    <option value="valor1"></option>
-                    <option value="valor2"></option>
-                    <option value="valor3"></option>
+                    <option value="0" disabled selected>Número Tarjeta</option>
                 </select>
                 <label for="">TARJETA</label>
             </div>
             <div>
-                <button class="btn btn-yellow" id="verSaldo">CONSULTAR</button>
+                <button class="btn btn-yellow" id="verCalculo">CONSULTAR</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <div id="horario"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <div id="calculo"></div>
             </div>
         </div>
     </section>
